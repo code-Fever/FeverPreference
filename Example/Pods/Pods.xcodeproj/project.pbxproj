@@ -7,24 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C86879B18F1626A183A02C56C3590FB /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE5AD570977C7A8018578F723A319C /* EXTRuntimeExtensions.m */; };
-		438DB04F285B78EC7B232D94952A19F9 /* Pods-FeverPreference_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8699DF8056E74E8A257796251A2DF32 /* Pods-FeverPreference_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E5E07EEBC11FCC0053FC5D2AC5A4D5E /* MFFPreference.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC41525567239995BB75DB20297359B /* MFFPreference.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		795BFEC52DFF22798D7AC5206E4EBDB3 /* MFFPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88768765844C062DAC3FBC9576045D /* MFFPreference.m */; };
-		79D3B795F6422DC664AD8EA2C49F6081 /* DDGProperties.c in Sources */ = {isa = PBXBuildFile; fileRef = A7578A369D3DEADAF04808F1B6F67162 /* DDGProperties.c */; };
-		7DCBE678DB84B1A7C6423DFBEADBE01C /* FeverPreference-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2284CB92A79E68ADCE45065D8C9626 /* FeverPreference-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF9F4B3536EBCEBD219982140400349 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD21D8FA973540FE3AA2A99165DB72 /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC169A6A5EC00A3F03F7DE34610F1E2D /* Pods-FeverPreference_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEECF4BBE08428B4838256605F81F9C5 /* Pods-FeverPreference_Example-dummy.m */; };
+		0467574583C254D677AE419353D333E7 /* AESCrypt.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB49E69D5118A247368AE7DF98F703B6 /* AESCrypt.mm */; };
+		1B6EA1D3C96B6BDA157041A11495B93E /* MiniPBCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A22228511D660876E19E65ADAB0EE4 /* MiniPBCoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DFA6FF1796CB195490238B7C65C9F8A /* openssl_md5_dgst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35021762FB6FF1D73F849F76AED34799 /* openssl_md5_dgst.cpp */; };
+		214DA9C18BE73A8C77D30BC7981B30E6 /* AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = B54286A0914C99AF112DBDFCE97B48CE /* AESCrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27204BAC6065AC75DE1C4FE08A15C49D /* MiniCodedInputData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1510522C51437566BA0B88C77D54C8CA /* MiniCodedInputData.mm */; };
+		29A39617F82A9EE435C73BB64C16EEEC /* openssl_md32_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D79B37CC21D5944B1E7D41F8F5E8837 /* openssl_md32_common.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A26CB9F8F7AD3B10842E6060CF6CE88 /* MiniCodedInputData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E87574DE2831B31140C5DCA83750C37 /* MiniCodedInputData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AEC831541115A31987698E98015CC7A /* openssl_aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E59FD4418DAC2988B92D98418BE6CB2 /* openssl_aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DF9FE2B5D549BB160677170CBA8F82E /* openssl_md5_locl.h in Headers */ = {isa = PBXBuildFile; fileRef = EF74102BD5EF5A892B58C0AC450BEB41 /* openssl_md5_locl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34D054EFE1E66186C8ED1297D328AD8A /* MMKV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9087AA746CEDABAB269D1CC434EA39B /* MMKV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CEE9A55FF63C1F2A32AE883B996639B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B02168B8F8F6017500DFB63F1B53E7B /* Foundation.framework */; };
+		3D08F80FB44A15DB8601A0C92AEC82A6 /* MiniCodedOutputData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 167E90F3D8971CB9DB669F1CD6ADA2F1 /* MiniCodedOutputData.mm */; };
+		3F6E4D55AB0D8D5763FB2E0BD55159FC /* DDGProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCC7300542AD2A6CACF7567025FCD00 /* DDGProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C3076D31C7A99764EF4FD3FE53FFC6 /* MMKVHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BB1A1EFFB9788C1E66F72E79EF9D6C /* MMKVHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5122781EFF74ED939727CB02DCE882E0 /* openssl_opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = F788A13C02B395D9FD6AE874C6A07926 /* openssl_opensslconf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52F82EEF8D15DC4CC7113AD6BE122B88 /* MiniPBCoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = B75CD4CAC7CCAC179E2CB40A8CB525CA /* MiniPBCoder.mm */; };
+		60237F2643C4721A02BAE6B560F98D5C /* FeverPreference-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394911DF053AE84C6AB987970DE41FE /* FeverPreference-dummy.m */; };
+		67098B66EEE5FCE660D0246DDD5D62F8 /* MMKV.h in Headers */ = {isa = PBXBuildFile; fileRef = 83DF4F0767DD5E1EB0707A9C2875DF82 /* MMKV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688F89C5856D70AD24C7ED0658C8F6AC /* openssl_md5_one.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75B6F0AD02D794FFAE767CDDB27E3649 /* openssl_md5_one.cpp */; };
+		702640E38911F8A970C2AEE5CAF44C41 /* openssl_aes_cfb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 612D9C64A7B2035D609E1940629ABB7A /* openssl_aes_cfb.cpp */; };
+		70C79B611A8596F3046CDEDE59B15B90 /* MiniPBUtility.mm in Sources */ = {isa = PBXBuildFile; fileRef = B910D98433DE17126C605CDAA9DB15CE /* MiniPBUtility.mm */; };
+		712CEAF1E5818245429A65176CCA2917 /* MiniPBUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D45CB5FD5638D710B036BFA9A9C2492 /* MiniPBUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71FF0C23485A03488463D26E375A6F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B02168B8F8F6017500DFB63F1B53E7B /* Foundation.framework */; };
+		7327F80D2D364E9C77D97C20BEEEDC6D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A511CD1C3C263C62CC231504C903D30A /* CoreFoundation.framework */; };
+		7501D7F74141324AEF3882D2D9FBD6FF /* MFFPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88768765844C062DAC3FBC9576045D /* MFFPreference.m */; };
+		76CD7236C945D460999590FCF07DAEB0 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE5AD570977C7A8018578F723A319C /* EXTRuntimeExtensions.m */; };
+		82EC60B837D2A7D16CD5FEEDB7344493 /* Pods-FeverPreference_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8699DF8056E74E8A257796251A2DF32 /* Pods-FeverPreference_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A68F2E39E018E5EB0B40E82C286682 /* Pods-FeverPreference_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEECF4BBE08428B4838256605F81F9C5 /* Pods-FeverPreference_Example-dummy.m */; };
+		9B39F7F858A0245E3EAB18052A3BB122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7E3243689A0B3F9FAAD2F8199C6AA4 /* UIKit.framework */; };
+		9BC23A3EF3766D06728EC495483B1B75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B02168B8F8F6017500DFB63F1B53E7B /* Foundation.framework */; };
+		9FFA9A65F6A03C9B1EBC6277A01BA4B6 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD21D8FA973540FE3AA2A99165DB72 /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A261EFA43EA4A9A7BB10D2CB2F4CB254 /* MiniPBEncodeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6CB50756F1AC7CD4941E375F0016BD /* MiniPBEncodeItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A525557DAB8AD6ED47A325CE909CA48C /* MMKVLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4942B5ED9FBA00C600166CB300B3A1F2 /* MMKVLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE416DB95854F9815021787AA1288A3A /* ScopedLock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B894AAEA961BAB03FA529D30858C0845 /* ScopedLock.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
 		B74FE72F9389BB89BFCDF3EF650B68C3 /* Pods-FeverPreference_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B147BCC442BE4A27F7C7C79C5E77806A /* Pods-FeverPreference_Tests-dummy.m */; };
+		BCCEE59831A53B22C5208C30F27063EC /* openssl_md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BADDF1429BBF9ABF4E4D84FBF544721 /* openssl_md5.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE0707542FE8F7D8EA58C4AD654B4B1C /* openssl_aes_locl.h in Headers */ = {isa = PBXBuildFile; fileRef = 01277F4D26ABF6C0F2D87BB1213D58DA /* openssl_aes_locl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE3C1E82550830795B54E17A1498CB01 /* MMKV.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA376670E4B372EB42134463B7D7276F /* MMKV.mm */; };
+		BF202C7970D413E21FBF903186DE82A7 /* openssl_modes.h in Headers */ = {isa = PBXBuildFile; fileRef = D939C4A32B1BF2BA5E75A8EDD3718BF0 /* openssl_modes.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BF334E20D4638041DAEDBCF30F3EB760 /* Pods-FeverPreference_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A6F6B7EFA20015E650993856925203 /* Pods-FeverPreference_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C77D3FF7C87F5706E0FE5FAADB53BAD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C81551189C4CD027F1C019A05DAB65FC /* FeverPreference-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394911DF053AE84C6AB987970DE41FE /* FeverPreference-dummy.m */; };
-		CEC705FB637E7E41BE652BE3D6B758FE /* DDGProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCC7300542AD2A6CACF7567025FCD00 /* DDGProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8AEA78C307F9425C35C153E7F31F61A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F2F4608DDE6F7C65379A569756225966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C0CC159195E0ABEC7CAEF9F4E9287448 /* FeverPreference-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2284CB92A79E68ADCE45065D8C9626 /* FeverPreference-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9379F1CDD6CF6299E621AA03F94FCEF /* MiniCodedOutputData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D39935FC550013AC396207CE6096211 /* MiniCodedOutputData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB2FDC9F2033B5C71C3FB6D76FD1563D /* openssl_cfb128.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A6BC7536658AE0DEFDDD7754F451691 /* openssl_cfb128.cpp */; };
+		CB54B5D895EB1FDBBC2A213352687645 /* MMKVLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCC99E8F8E5D635F21401BAD9A8AE228 /* MMKVLog.mm */; };
+		D12E2A920FEF5446886CA5649583353C /* MFFPreference.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC41525567239995BB75DB20297359B /* MFFPreference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48C6915923B38ED90E504E925557216 /* openssl_aes_core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2781880F625FDF2EC39F19659CE05220 /* openssl_aes_core.cpp */; };
+		D58C2C841F1E8B2FA3A86C4E855033A4 /* MMKVMetaInfo.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9CBFE803B551DB109D3DD0255B899AF3 /* MMKVMetaInfo.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		E251514C26FB281AB1AA1C27D506D4EB /* LRUCache.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A88144BC8415B3342026EF7EEFF41EA7 /* LRUCache.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA3D88EC6796E23143CCA320DA72A313 /* DDGProperties.c in Sources */ = {isa = PBXBuildFile; fileRef = A7578A369D3DEADAF04808F1B6F67162 /* DDGProperties.c */; };
+		EDD63852975D158DC80EF8D728A68DAF /* MMKV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B14D8B7BC9576110E9FA92F609F30D9 /* MMKV.framework */; };
+		F1A6FA23A22A76A0B54A24D2E3E787BF /* MMKV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F28792A9A86525878C0992AE67E1585D /* MMKV-dummy.m */; };
+		F2F4608DDE6F7C65379A569756225966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B02168B8F8F6017500DFB63F1B53E7B /* Foundation.framework */; };
+		F89D0DC995BE71E797CDE0F55B69D645 /* MemoryFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 709885B9311A3B8411E9DC093365F77D /* MemoryFile.mm */; };
+		FB2D18E49154C8765CB572781C5DDC37 /* MemoryFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8323F379B5BC6E9E9A227D29E2E222 /* MemoryFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0405E2B8A2DC4A49090111BA9D42AF1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F9BEA2ED706EC7F39589D3D9679F1F1;
+			remoteInfo = FeverPreference;
+		};
 		35E09EE3A020C29188E4703B42C5353D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -32,61 +78,111 @@
 			remoteGlobalIDString = 2F08FEF0316B825AD6C19C95426CE4C8;
 			remoteInfo = "Pods-FeverPreference_Example";
 		};
-		3E958A4CE1AE23250B69F6D6EF83F70E /* PBXContainerItemProxy */ = {
+		5E561155C9AF7FC2E60A1E3C2E9A58FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F9BEA2ED706EC7F39589D3D9679F1F1;
-			remoteInfo = FeverPreference;
+			remoteGlobalIDString = 91A6826828CB9FCD0169A7547E8A79EA;
+			remoteInfo = MMKV;
+		};
+		E12BEE341F7435716F511D228D2E613A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A6826828CB9FCD0169A7547E8A79EA;
+			remoteInfo = MMKV;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		011B58AD0E1C499A33734DD3F8C8CD7B /* Pods-FeverPreference_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FeverPreference_Tests.modulemap"; sourceTree = "<group>"; };
+		01277F4D26ABF6C0F2D87BB1213D58DA /* openssl_aes_locl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_aes_locl.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes_locl.h; sourceTree = "<group>"; };
 		01CD21D8FA973540FE3AA2A99165DB72 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = FeverPreference/Classes/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		0B14D8B7BC9576110E9FA92F609F30D9 /* MMKV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMKV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1510522C51437566BA0B88C77D54C8CA /* MiniCodedInputData.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MiniCodedInputData.mm; path = iOS/MMKV/MMKV/MiniCodedInputData.mm; sourceTree = "<group>"; };
+		167E90F3D8971CB9DB669F1CD6ADA2F1 /* MiniCodedOutputData.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MiniCodedOutputData.mm; path = iOS/MMKV/MMKV/MiniCodedOutputData.mm; sourceTree = "<group>"; };
 		19E35C0D10B4B0A020A2966DE3FA118D /* Pods_FeverPreference_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FeverPreference_Example.framework; path = "Pods-FeverPreference_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BADDF1429BBF9ABF4E4D84FBF544721 /* openssl_md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_md5.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5.h; sourceTree = "<group>"; };
 		1E88768765844C062DAC3FBC9576045D /* MFFPreference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MFFPreference.m; path = FeverPreference/Classes/MFFPreference.m; sourceTree = "<group>"; };
 		1F04542B916D302342CD879EA25D0AFB /* FeverPreference.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FeverPreference.framework; path = FeverPreference.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2394911DF053AE84C6AB987970DE41FE /* FeverPreference-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeverPreference-dummy.m"; sourceTree = "<group>"; };
+		2781880F625FDF2EC39F19659CE05220 /* openssl_aes_core.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = openssl_aes_core.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes_core.cpp; sourceTree = "<group>"; };
+		2A6BC7536658AE0DEFDDD7754F451691 /* openssl_cfb128.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = openssl_cfb128.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_cfb128.cpp; sourceTree = "<group>"; };
 		2BB31BBFA41DF81D0D059DB99711DD1D /* Pods-FeverPreference_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeverPreference_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2D2284CB92A79E68ADCE45065D8C9626 /* FeverPreference-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeverPreference-umbrella.h"; sourceTree = "<group>"; };
 		2FAE5AD570977C7A8018578F723A319C /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = FeverPreference/Classes/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		31BB1A1EFFB9788C1E66F72E79EF9D6C /* MMKVHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMKVHandler.h; path = iOS/MMKV/MMKV/MMKVHandler.h; sourceTree = "<group>"; };
 		330EE6CA59834C1DB97DF019EFD53EBA /* FeverPreference-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeverPreference-prefix.pch"; sourceTree = "<group>"; };
+		35021762FB6FF1D73F849F76AED34799 /* openssl_md5_dgst.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = openssl_md5_dgst.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5_dgst.cpp; sourceTree = "<group>"; };
 		35C200983200078AAA4CAA4E5636D6EC /* Pods_FeverPreference_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FeverPreference_Tests.framework; path = "Pods-FeverPreference_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D39935FC550013AC396207CE6096211 /* MiniCodedOutputData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniCodedOutputData.h; path = iOS/MMKV/MMKV/MiniCodedOutputData.h; sourceTree = "<group>"; };
+		3E87574DE2831B31140C5DCA83750C37 /* MiniCodedInputData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniCodedInputData.h; path = iOS/MMKV/MMKV/MiniCodedInputData.h; sourceTree = "<group>"; };
 		46A6F6B7EFA20015E650993856925203 /* Pods-FeverPreference_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FeverPreference_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4942B5ED9FBA00C600166CB300B3A1F2 /* MMKVLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMKVLog.h; path = iOS/MMKV/MMKV/MMKVLog.h; sourceTree = "<group>"; };
+		49DE8039B84678D16ED8DAFB199DFB42 /* MMKV-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMKV-Info.plist"; sourceTree = "<group>"; };
 		4B99F815D7388C3A16A3AABFE95AFF21 /* FeverPreference.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeverPreference.xcconfig; sourceTree = "<group>"; };
+		4E59FD4418DAC2988B92D98418BE6CB2 /* openssl_aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_aes.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes.h; sourceTree = "<group>"; };
 		59EEB74E44C68D2BB783A9942724003D /* FeverPreference-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FeverPreference-Info.plist"; sourceTree = "<group>"; };
 		5AE624BFC58D9AABAB97E6A7E9B11E9A /* Pods-FeverPreference_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeverPreference_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5CC41525567239995BB75DB20297359B /* MFFPreference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFFPreference.h; path = FeverPreference/Classes/MFFPreference.h; sourceTree = "<group>"; };
+		5D8323F379B5BC6E9E9A227D29E2E222 /* MemoryFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemoryFile.h; path = iOS/MMKV/MMKV/MemoryFile.h; sourceTree = "<group>"; };
+		612D9C64A7B2035D609E1940629ABB7A /* openssl_aes_cfb.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = openssl_aes_cfb.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes_cfb.cpp; sourceTree = "<group>"; };
 		6E089B7747CF2E405A655DD3F9314752 /* FeverPreference.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FeverPreference.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		709885B9311A3B8411E9DC093365F77D /* MemoryFile.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MemoryFile.mm; path = iOS/MMKV/MMKV/MemoryFile.mm; sourceTree = "<group>"; };
+		75B6F0AD02D794FFAE767CDDB27E3649 /* openssl_md5_one.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = openssl_md5_one.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5_one.cpp; sourceTree = "<group>"; };
 		76D433950C046FF688FAA8DA7CAB5C4A /* Pods-FeverPreference_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FeverPreference_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7766987B6347C41E881E6F6B48DD277E /* Pods-FeverPreference_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeverPreference_Example.release.xcconfig"; sourceTree = "<group>"; };
 		78623A187208B6CC9E979729E7F55ADB /* Pods-FeverPreference_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FeverPreference_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7B5FCC5D8ADABF572438D80721309168 /* MMKV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMKV.modulemap; sourceTree = "<group>"; };
+		7C6CB50756F1AC7CD4941E375F0016BD /* MiniPBEncodeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniPBEncodeItem.h; path = iOS/MMKV/MMKV/MiniPBEncodeItem.h; sourceTree = "<group>"; };
+		83DF4F0767DD5E1EB0707A9C2875DF82 /* MMKV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMKV.h; path = iOS/MMKV/MMKV/MMKV.h; sourceTree = "<group>"; };
 		8411D15A8898FE07B505338BC8FB2607 /* Pods-FeverPreference_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FeverPreference_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F1DA220FAC8C282AD209668277561EE /* Pods-FeverPreference_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeverPreference_Tests-Info.plist"; sourceTree = "<group>"; };
+		8F7E3243689A0B3F9FAAD2F8199C6AA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9B02168B8F8F6017500DFB63F1B53E7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9CBFE803B551DB109D3DD0255B899AF3 /* MMKVMetaInfo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MMKVMetaInfo.hpp; path = iOS/MMKV/MMKV/MMKVMetaInfo.hpp; sourceTree = "<group>"; };
 		9CCC7300542AD2A6CACF7567025FCD00 /* DDGProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDGProperties.h; path = FeverPreference/Classes/DDGProperties.h; sourceTree = "<group>"; };
+		9D45CB5FD5638D710B036BFA9A9C2492 /* MiniPBUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniPBUtility.h; path = iOS/MMKV/MMKV/MiniPBUtility.h; sourceTree = "<group>"; };
+		9D79B37CC21D5944B1E7D41F8F5E8837 /* openssl_md32_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_md32_common.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_md32_common.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF315CC2E6F9964F4FBC6C73AD42F84 /* Pods-FeverPreference_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeverPreference_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A511CD1C3C263C62CC231504C903D30A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		A7578A369D3DEADAF04808F1B6F67162 /* DDGProperties.c */ = {isa = PBXFileReference; includeInIndex = 1; name = DDGProperties.c; path = FeverPreference/Classes/DDGProperties.c; sourceTree = "<group>"; };
+		A88144BC8415B3342026EF7EEFF41EA7 /* LRUCache.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = LRUCache.hpp; path = iOS/MMKV/MMKV/LRUCache.hpp; sourceTree = "<group>"; };
+		A8A22228511D660876E19E65ADAB0EE4 /* MiniPBCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniPBCoder.h; path = iOS/MMKV/MMKV/MiniPBCoder.h; sourceTree = "<group>"; };
+		A9087AA746CEDABAB269D1CC434EA39B /* MMKV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMKV-umbrella.h"; sourceTree = "<group>"; };
+		AB49E69D5118A247368AE7DF98F703B6 /* AESCrypt.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = AESCrypt.mm; path = iOS/MMKV/MMKV/aes/AESCrypt.mm; sourceTree = "<group>"; };
 		B147BCC442BE4A27F7C7C79C5E77806A /* Pods-FeverPreference_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FeverPreference_Tests-dummy.m"; sourceTree = "<group>"; };
+		B3905C4CAC31CB9FB7D7AD677B183C55 /* MMKV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMKV-prefix.pch"; sourceTree = "<group>"; };
+		B54286A0914C99AF112DBDFCE97B48CE /* AESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AESCrypt.h; path = iOS/MMKV/MMKV/aes/AESCrypt.h; sourceTree = "<group>"; };
+		B75CD4CAC7CCAC179E2CB40A8CB525CA /* MiniPBCoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MiniPBCoder.mm; path = iOS/MMKV/MMKV/MiniPBCoder.mm; sourceTree = "<group>"; };
+		B88A54159B245E727A6D16DEFE105A09 /* MMKV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMKV.framework; path = MMKV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B894AAEA961BAB03FA529D30858C0845 /* ScopedLock.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ScopedLock.hpp; path = iOS/MMKV/MMKV/ScopedLock.hpp; sourceTree = "<group>"; };
+		B910D98433DE17126C605CDAA9DB15CE /* MiniPBUtility.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MiniPBUtility.mm; path = iOS/MMKV/MMKV/MiniPBUtility.mm; sourceTree = "<group>"; };
+		BA376670E4B372EB42134463B7D7276F /* MMKV.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MMKV.mm; path = iOS/MMKV/MMKV/MMKV.mm; sourceTree = "<group>"; };
+		BCCB89870628E8FCE4F8073A81974F9D /* MMKV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMKV.xcconfig; sourceTree = "<group>"; };
 		C8699DF8056E74E8A257796251A2DF32 /* Pods-FeverPreference_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FeverPreference_Example-umbrella.h"; sourceTree = "<group>"; };
+		CCC99E8F8E5D635F21401BAD9A8AE228 /* MMKVLog.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MMKVLog.mm; path = iOS/MMKV/MMKV/MMKVLog.mm; sourceTree = "<group>"; };
+		D939C4A32B1BF2BA5E75A8EDD3718BF0 /* openssl_modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_modes.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_modes.h; sourceTree = "<group>"; };
 		DAFDD75C420BB286D675D5A691CB3A65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DEF328F72D3609C3857A2A33FABE5FFF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EA423E596A07FA20532D7E2EFE3CEE1C /* Pods-FeverPreference_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeverPreference_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EDEAD505AAAAA4710470B49D25B3382D /* Pods-FeverPreference_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FeverPreference_Example.modulemap"; sourceTree = "<group>"; };
+		EF74102BD5EF5A892B58C0AC450BEB41 /* openssl_md5_locl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_md5_locl.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5_locl.h; sourceTree = "<group>"; };
+		F28792A9A86525878C0992AE67E1585D /* MMKV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMKV-dummy.m"; sourceTree = "<group>"; };
 		F634813B1636B315FAC26523BA0417BF /* FeverPreference.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FeverPreference.modulemap; sourceTree = "<group>"; };
+		F788A13C02B395D9FD6AE874C6A07926 /* openssl_opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_opensslconf.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_opensslconf.h; sourceTree = "<group>"; };
 		FC5FF39401358CD617837750831F0AE2 /* Pods-FeverPreference_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeverPreference_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE5F8C3390ED7232A8E556B00F5EFC00 /* Pods-FeverPreference_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeverPreference_Example-Info.plist"; sourceTree = "<group>"; };
 		FEECF4BBE08428B4838256605F81F9C5 /* Pods-FeverPreference_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FeverPreference_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0613C97AC0B0BA4D0D3DBFF931918C09 /* Frameworks */ = {
+		137FE94FD3899060B2AA536A6C194B06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77D3FF7C87F5706E0FE5FAADB53BAD7 /* Foundation.framework in Frameworks */,
+				71FF0C23485A03488463D26E375A6F55 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,11 +194,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6235457E4F7A2A7AFBAFC61F42E7261A /* Frameworks */ = {
+		B4E13EBE36B154EAE144AA84C2376E12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8AEA78C307F9425C35C153E7F31F61A /* Foundation.framework in Frameworks */,
+				7327F80D2D364E9C77D97C20BEEEDC6D /* CoreFoundation.framework in Frameworks */,
+				3CEE9A55FF63C1F2A32AE883B996639B /* Foundation.framework in Frameworks */,
+				9B39F7F858A0245E3EAB18052A3BB122 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50031BC2F36DFFC3EEDE574601EA791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC23A3EF3766D06728EC495483B1B75 /* Foundation.framework in Frameworks */,
+				EDD63852975D158DC80EF8D728A68DAF /* MMKV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +242,39 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		4C533DBBF57800180F35B2C69AB71DD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B14D8B7BC9576110E9FA92F609F30D9 /* MMKV.framework */,
+				7471A4FB4497C1260FBBD61DB381E18B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6831FF325C42B2A1778F4F9DA663BCB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B5FCC5D8ADABF572438D80721309168 /* MMKV.modulemap */,
+				BCCB89870628E8FCE4F8073A81974F9D /* MMKV.xcconfig */,
+				F28792A9A86525878C0992AE67E1585D /* MMKV-dummy.m */,
+				49DE8039B84678D16ED8DAFB199DFB42 /* MMKV-Info.plist */,
+				B3905C4CAC31CB9FB7D7AD677B183C55 /* MMKV-prefix.pch */,
+				A9087AA746CEDABAB269D1CC434EA39B /* MMKV-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMKV";
+			sourceTree = "<group>";
+		};
+		7471A4FB4497C1260FBBD61DB381E18B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A511CD1C3C263C62CC231504C903D30A /* CoreFoundation.framework */,
+				9B02168B8F8F6017500DFB63F1B53E7B /* Foundation.framework */,
+				8F7E3243689A0B3F9FAAD2F8199C6AA4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DC4A905B33E2A22572957DADF924F7C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,14 +292,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A0BFC7BE59D8F042416A12EAFDD51D99 /* Products */ = {
+		914A5629153E1F491E74F1F06CF1CC98 /* MMKV */ = {
 			isa = PBXGroup;
 			children = (
-				1F04542B916D302342CD879EA25D0AFB /* FeverPreference.framework */,
-				19E35C0D10B4B0A020A2966DE3FA118D /* Pods_FeverPreference_Example.framework */,
-				35C200983200078AAA4CAA4E5636D6EC /* Pods_FeverPreference_Tests.framework */,
+				B54286A0914C99AF112DBDFCE97B48CE /* AESCrypt.h */,
+				AB49E69D5118A247368AE7DF98F703B6 /* AESCrypt.mm */,
+				A88144BC8415B3342026EF7EEFF41EA7 /* LRUCache.hpp */,
+				5D8323F379B5BC6E9E9A227D29E2E222 /* MemoryFile.h */,
+				709885B9311A3B8411E9DC093365F77D /* MemoryFile.mm */,
+				3E87574DE2831B31140C5DCA83750C37 /* MiniCodedInputData.h */,
+				1510522C51437566BA0B88C77D54C8CA /* MiniCodedInputData.mm */,
+				3D39935FC550013AC396207CE6096211 /* MiniCodedOutputData.h */,
+				167E90F3D8971CB9DB669F1CD6ADA2F1 /* MiniCodedOutputData.mm */,
+				A8A22228511D660876E19E65ADAB0EE4 /* MiniPBCoder.h */,
+				B75CD4CAC7CCAC179E2CB40A8CB525CA /* MiniPBCoder.mm */,
+				7C6CB50756F1AC7CD4941E375F0016BD /* MiniPBEncodeItem.h */,
+				9D45CB5FD5638D710B036BFA9A9C2492 /* MiniPBUtility.h */,
+				B910D98433DE17126C605CDAA9DB15CE /* MiniPBUtility.mm */,
+				83DF4F0767DD5E1EB0707A9C2875DF82 /* MMKV.h */,
+				BA376670E4B372EB42134463B7D7276F /* MMKV.mm */,
+				31BB1A1EFFB9788C1E66F72E79EF9D6C /* MMKVHandler.h */,
+				4942B5ED9FBA00C600166CB300B3A1F2 /* MMKVLog.h */,
+				CCC99E8F8E5D635F21401BAD9A8AE228 /* MMKVLog.mm */,
+				9CBFE803B551DB109D3DD0255B899AF3 /* MMKVMetaInfo.hpp */,
+				4E59FD4418DAC2988B92D98418BE6CB2 /* openssl_aes.h */,
+				612D9C64A7B2035D609E1940629ABB7A /* openssl_aes_cfb.cpp */,
+				2781880F625FDF2EC39F19659CE05220 /* openssl_aes_core.cpp */,
+				01277F4D26ABF6C0F2D87BB1213D58DA /* openssl_aes_locl.h */,
+				2A6BC7536658AE0DEFDDD7754F451691 /* openssl_cfb128.cpp */,
+				9D79B37CC21D5944B1E7D41F8F5E8837 /* openssl_md32_common.h */,
+				1BADDF1429BBF9ABF4E4D84FBF544721 /* openssl_md5.h */,
+				35021762FB6FF1D73F849F76AED34799 /* openssl_md5_dgst.cpp */,
+				EF74102BD5EF5A892B58C0AC450BEB41 /* openssl_md5_locl.h */,
+				75B6F0AD02D794FFAE767CDDB27E3649 /* openssl_md5_one.cpp */,
+				D939C4A32B1BF2BA5E75A8EDD3718BF0 /* openssl_modes.h */,
+				F788A13C02B395D9FD6AE874C6A07926 /* openssl_opensslconf.h */,
+				B894AAEA961BAB03FA529D30858C0845 /* ScopedLock.hpp */,
+				6831FF325C42B2A1778F4F9DA663BCB5 /* Support Files */,
 			);
-			name = Products;
+			name = MMKV;
+			path = MMKV;
 			sourceTree = "<group>";
 		};
 		ADD8D7A8ED9FC0ADF8B3B7C6A1068DC8 /* Pods-FeverPreference_Example */ = {
@@ -179,14 +351,6 @@
 			path = "Target Support Files/Pods-FeverPreference_Example";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		C140BE6A99AF7C3EAB7D794D8E320D72 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,23 +365,35 @@
 			path = "Example/Pods/Target Support Files/FeverPreference";
 			sourceTree = "<group>";
 		};
+		C9703A4AD37C13862D803A929FA12E18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				914A5629153E1F491E74F1F06CF1CC98 /* MMKV */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD8F73EECA0217D6065646DC61FBBB1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F04542B916D302342CD879EA25D0AFB /* FeverPreference.framework */,
+				B88A54159B245E727A6D16DEFE105A09 /* MMKV.framework */,
+				19E35C0D10B4B0A020A2966DE3FA118D /* Pods_FeverPreference_Example.framework */,
+				35C200983200078AAA4CAA4E5636D6EC /* Pods_FeverPreference_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				7DC4A905B33E2A22572957DADF924F7C /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A0BFC7BE59D8F042416A12EAFDD51D99 /* Products */,
+				4C533DBBF57800180F35B2C69AB71DD4 /* Frameworks */,
+				C9703A4AD37C13862D803A929FA12E18 /* Pods */,
+				CD8F73EECA0217D6065646DC61FBBB1B /* Products */,
 				8642FA80A3451E1C6A8083C10CB702F1 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D4E18B033ED0FAFB9347172A6F232901 /* FeverPreference */ = {
@@ -239,25 +415,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C100C7848936A42C6E9DF1F879507C2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEC705FB637E7E41BE652BE3D6B758FE /* DDGProperties.h in Headers */,
-				AAF9F4B3536EBCEBD219982140400349 /* EXTRuntimeExtensions.h in Headers */,
-				7DCBE678DB84B1A7C6423DFBEADBE01C /* FeverPreference-umbrella.h in Headers */,
-				4E5E07EEBC11FCC0053FC5D2AC5A4D5E /* MFFPreference.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20881483175F04237FC5693B33EBE28D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				438DB04F285B78EC7B232D94952A19F9 /* Pods-FeverPreference_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7FD515CC5A0466BC9663B33C0A812940 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,22 +423,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D395635A587DA15F3DDD502FECA39615 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6E4D55AB0D8D5763FB2E0BD55159FC /* DDGProperties.h in Headers */,
+				9FFA9A65F6A03C9B1EBC6277A01BA4B6 /* EXTRuntimeExtensions.h in Headers */,
+				C0CC159195E0ABEC7CAEF9F4E9287448 /* FeverPreference-umbrella.h in Headers */,
+				D12E2A920FEF5446886CA5649583353C /* MFFPreference.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C24E425B4A12DF3F7CDF19EA6B91AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EC60B837D2A7D16CD5FEEDB7344493 /* Pods-FeverPreference_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDA08C1BFD980A64E6D92F1D79D75B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214DA9C18BE73A8C77D30BC7981B30E6 /* AESCrypt.h in Headers */,
+				E251514C26FB281AB1AA1C27D506D4EB /* LRUCache.hpp in Headers */,
+				FB2D18E49154C8765CB572781C5DDC37 /* MemoryFile.h in Headers */,
+				2A26CB9F8F7AD3B10842E6060CF6CE88 /* MiniCodedInputData.h in Headers */,
+				C9379F1CDD6CF6299E621AA03F94FCEF /* MiniCodedOutputData.h in Headers */,
+				1B6EA1D3C96B6BDA157041A11495B93E /* MiniPBCoder.h in Headers */,
+				A261EFA43EA4A9A7BB10D2CB2F4CB254 /* MiniPBEncodeItem.h in Headers */,
+				712CEAF1E5818245429A65176CCA2917 /* MiniPBUtility.h in Headers */,
+				34D054EFE1E66186C8ED1297D328AD8A /* MMKV-umbrella.h in Headers */,
+				67098B66EEE5FCE660D0246DDD5D62F8 /* MMKV.h in Headers */,
+				44C3076D31C7A99764EF4FD3FE53FFC6 /* MMKVHandler.h in Headers */,
+				A525557DAB8AD6ED47A325CE909CA48C /* MMKVLog.h in Headers */,
+				D58C2C841F1E8B2FA3A86C4E855033A4 /* MMKVMetaInfo.hpp in Headers */,
+				2AEC831541115A31987698E98015CC7A /* openssl_aes.h in Headers */,
+				BE0707542FE8F7D8EA58C4AD654B4B1C /* openssl_aes_locl.h in Headers */,
+				29A39617F82A9EE435C73BB64C16EEEC /* openssl_md32_common.h in Headers */,
+				BCCEE59831A53B22C5208C30F27063EC /* openssl_md5.h in Headers */,
+				2DF9FE2B5D549BB160677170CBA8F82E /* openssl_md5_locl.h in Headers */,
+				BF202C7970D413E21FBF903186DE82A7 /* openssl_modes.h in Headers */,
+				5122781EFF74ED939727CB02DCE882E0 /* openssl_opensslconf.h in Headers */,
+				AE416DB95854F9815021787AA1288A3A /* ScopedLock.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2F08FEF0316B825AD6C19C95426CE4C8 /* Pods-FeverPreference_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56A5EB20D496CEE8100372AEB4CF7F26 /* Build configuration list for PBXNativeTarget "Pods-FeverPreference_Example" */;
+			buildConfigurationList = CC7F4F248D93EB259F3116BD654C69A9 /* Build configuration list for PBXNativeTarget "Pods-FeverPreference_Example" */;
 			buildPhases = (
-				20881483175F04237FC5693B33EBE28D /* Headers */,
-				17978C08DCA40BC831D2892AEEF0C98D /* Sources */,
-				6235457E4F7A2A7AFBAFC61F42E7261A /* Frameworks */,
-				48BF5909259E068929E3335D9C8181FC /* Resources */,
+				D8C24E425B4A12DF3F7CDF19EA6B91AE /* Headers */,
+				8C3373354A2E3886750D60A39F344234 /* Sources */,
+				137FE94FD3899060B2AA536A6C194B06 /* Frameworks */,
+				9EB2E74789437E3CD5DE7367C08B71CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9D3670F58101B28DA787464C9C763395 /* PBXTargetDependency */,
+				17E6792D46379F1E9334C7D92020447C /* PBXTargetDependency */,
+				C136E6CCBAD3247699772F40E1172A49 /* PBXTargetDependency */,
 			);
 			name = "Pods-FeverPreference_Example";
 			productName = "Pods-FeverPreference_Example";
@@ -309,20 +514,39 @@
 		};
 		4F9BEA2ED706EC7F39589D3D9679F1F1 /* FeverPreference */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C7F8547803B9188C491B00C1A4992A0 /* Build configuration list for PBXNativeTarget "FeverPreference" */;
+			buildConfigurationList = 45C4E233466AC999806807A5B3AEB699 /* Build configuration list for PBXNativeTarget "FeverPreference" */;
 			buildPhases = (
-				0C100C7848936A42C6E9DF1F879507C2 /* Headers */,
-				A161251CD782834850038460ED6AEE65 /* Sources */,
-				0613C97AC0B0BA4D0D3DBFF931918C09 /* Frameworks */,
-				B0D044D8274A64EE05CEBF39210C7B60 /* Resources */,
+				D395635A587DA15F3DDD502FECA39615 /* Headers */,
+				D9D9935F994FAE7DF24A2A640F31F517 /* Sources */,
+				D50031BC2F36DFFC3EEDE574601EA791 /* Frameworks */,
+				2D5D10EBE9546687165F58E7924D1D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2BE3290D0DEADB93EEF1027E751FB7B /* PBXTargetDependency */,
+			);
+			name = FeverPreference;
+			productName = FeverPreference;
+			productReference = 1F04542B916D302342CD879EA25D0AFB /* FeverPreference.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91A6826828CB9FCD0169A7547E8A79EA /* MMKV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C688597C2C70240471C4325F8CB9CA /* Build configuration list for PBXNativeTarget "MMKV" */;
+			buildPhases = (
+				FFDA08C1BFD980A64E6D92F1D79D75B6 /* Headers */,
+				BDD95D8830153000A58559B9A717FC60 /* Sources */,
+				B4E13EBE36B154EAE144AA84C2376E12 /* Frameworks */,
+				D92797474F2E7224879E43D6615A1185 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FeverPreference;
-			productName = FeverPreference;
-			productReference = 1F04542B916D302342CD879EA25D0AFB /* FeverPreference.framework */;
+			name = MMKV;
+			productName = MMKV;
+			productReference = B88A54159B245E727A6D16DEFE105A09 /* MMKV.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -342,11 +566,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A0BFC7BE59D8F042416A12EAFDD51D99 /* Products */;
+			productRefGroup = CD8F73EECA0217D6065646DC61FBBB1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4F9BEA2ED706EC7F39589D3D9679F1F1 /* FeverPreference */,
+				91A6826828CB9FCD0169A7547E8A79EA /* MMKV */,
 				2F08FEF0316B825AD6C19C95426CE4C8 /* Pods-FeverPreference_Example */,
 				4DD258186EA3D9C46FA2A8046EB63E60 /* Pods-FeverPreference_Tests */,
 			);
@@ -354,7 +579,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		48BF5909259E068929E3335D9C8181FC /* Resources */ = {
+		2D5D10EBE9546687165F58E7924D1D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB2E74789437E3CD5DE7367C08B71CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,7 +600,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0D044D8274A64EE05CEBF39210C7B60 /* Resources */ = {
+		D92797474F2E7224879E43D6615A1185 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,22 +610,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17978C08DCA40BC831D2892AEEF0C98D /* Sources */ = {
+		8C3373354A2E3886750D60A39F344234 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC169A6A5EC00A3F03F7DE34610F1E2D /* Pods-FeverPreference_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A161251CD782834850038460ED6AEE65 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79D3B795F6422DC664AD8EA2C49F6081 /* DDGProperties.c in Sources */,
-				3C86879B18F1626A183A02C56C3590FB /* EXTRuntimeExtensions.m in Sources */,
-				C81551189C4CD027F1C019A05DAB65FC /* FeverPreference-dummy.m in Sources */,
-				795BFEC52DFF22798D7AC5206E4EBDB3 /* MFFPreference.m in Sources */,
+				83A68F2E39E018E5EB0B40E82C286682 /* Pods-FeverPreference_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,27 +626,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDD95D8830153000A58559B9A717FC60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0467574583C254D677AE419353D333E7 /* AESCrypt.mm in Sources */,
+				F89D0DC995BE71E797CDE0F55B69D645 /* MemoryFile.mm in Sources */,
+				27204BAC6065AC75DE1C4FE08A15C49D /* MiniCodedInputData.mm in Sources */,
+				3D08F80FB44A15DB8601A0C92AEC82A6 /* MiniCodedOutputData.mm in Sources */,
+				52F82EEF8D15DC4CC7113AD6BE122B88 /* MiniPBCoder.mm in Sources */,
+				70C79B611A8596F3046CDEDE59B15B90 /* MiniPBUtility.mm in Sources */,
+				F1A6FA23A22A76A0B54A24D2E3E787BF /* MMKV-dummy.m in Sources */,
+				BE3C1E82550830795B54E17A1498CB01 /* MMKV.mm in Sources */,
+				CB54B5D895EB1FDBBC2A213352687645 /* MMKVLog.mm in Sources */,
+				702640E38911F8A970C2AEE5CAF44C41 /* openssl_aes_cfb.cpp in Sources */,
+				D48C6915923B38ED90E504E925557216 /* openssl_aes_core.cpp in Sources */,
+				CB2FDC9F2033B5C71C3FB6D76FD1563D /* openssl_cfb128.cpp in Sources */,
+				1DFA6FF1796CB195490238B7C65C9F8A /* openssl_md5_dgst.cpp in Sources */,
+				688F89C5856D70AD24C7ED0658C8F6AC /* openssl_md5_one.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D9935F994FAE7DF24A2A640F31F517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3D88EC6796E23143CCA320DA72A313 /* DDGProperties.c in Sources */,
+				76CD7236C945D460999590FCF07DAEB0 /* EXTRuntimeExtensions.m in Sources */,
+				60237F2643C4721A02BAE6B560F98D5C /* FeverPreference-dummy.m in Sources */,
+				7501D7F74141324AEF3882D2D9FBD6FF /* MFFPreference.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		17E6792D46379F1E9334C7D92020447C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FeverPreference;
+			target = 4F9BEA2ED706EC7F39589D3D9679F1F1 /* FeverPreference */;
+			targetProxy = 0405E2B8A2DC4A49090111BA9D42AF1D /* PBXContainerItemProxy */;
+		};
 		37612A5308204C7C9FD465B9AC07553D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FeverPreference_Example";
 			target = 2F08FEF0316B825AD6C19C95426CE4C8 /* Pods-FeverPreference_Example */;
 			targetProxy = 35E09EE3A020C29188E4703B42C5353D /* PBXContainerItemProxy */;
 		};
-		9D3670F58101B28DA787464C9C763395 /* PBXTargetDependency */ = {
+		C136E6CCBAD3247699772F40E1172A49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FeverPreference;
-			target = 4F9BEA2ED706EC7F39589D3D9679F1F1 /* FeverPreference */;
-			targetProxy = 3E958A4CE1AE23250B69F6D6EF83F70E /* PBXContainerItemProxy */;
+			name = MMKV;
+			target = 91A6826828CB9FCD0169A7547E8A79EA /* MMKV */;
+			targetProxy = 5E561155C9AF7FC2E60A1E3C2E9A58FA /* PBXContainerItemProxy */;
+		};
+		E2BE3290D0DEADB93EEF1027E751FB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMKV;
+			target = 91A6826828CB9FCD0169A7547E8A79EA /* MMKV */;
+			targetProxy = E12BEE341F7435716F511D228D2E613A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2FCE61FC40D1DE3A367D53F7CD7BADD3 /* Release */ = {
+		290CED5EE93BA1B240A5C5294AEFD98B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B99F815D7388C3A16A3AABFE95AFF21 /* FeverPreference.xcconfig */;
+			baseConfigurationReference = BCCB89870628E8FCE4F8073A81974F9D /* MMKV.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -436,14 +701,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FeverPreference/FeverPreference-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FeverPreference/FeverPreference-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MMKV/MMKV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMKV/MMKV-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FeverPreference/FeverPreference.modulemap";
-				PRODUCT_MODULE_NAME = FeverPreference;
-				PRODUCT_NAME = FeverPreference;
+				MODULEMAP_FILE = "Target Support Files/MMKV/MMKV.modulemap";
+				PRODUCT_MODULE_NAME = MMKV;
+				PRODUCT_NAME = MMKV;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -488,6 +753,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		41F5217D78DD3E6406D7B836494B8C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB31BBFA41DF81D0D059DB99711DD1D /* Pods-FeverPreference_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FeverPreference_Example/Pods-FeverPreference_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FeverPreference_Example/Pods-FeverPreference_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -549,9 +847,9 @@
 			};
 			name = Release;
 		};
-		783F1028653BF062E2D1321E6A475861 /* Debug */ = {
+		5419F912BC4EFA23017FC8A99B811913 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B99F815D7388C3A16A3AABFE95AFF21 /* FeverPreference.xcconfig */;
+			baseConfigurationReference = BCCB89870628E8FCE4F8073A81974F9D /* MMKV.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -562,14 +860,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FeverPreference/FeverPreference-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FeverPreference/FeverPreference-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MMKV/MMKV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMKV/MMKV-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FeverPreference/FeverPreference.modulemap";
-				PRODUCT_MODULE_NAME = FeverPreference;
-				PRODUCT_NAME = FeverPreference;
+				MODULEMAP_FILE = "Target Support Files/MMKV/MMKV.modulemap";
+				PRODUCT_MODULE_NAME = MMKV;
+				PRODUCT_NAME = MMKV;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -644,11 +942,10 @@
 			};
 			name = Debug;
 		};
-		BF69A99AF999D3B13CADF8D9D886D018 /* Debug */ = {
+		9FC6AC21D9B026D3350285025541D595 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BB31BBFA41DF81D0D059DB99711DD1D /* Pods-FeverPreference_Example.debug.xcconfig */;
+			baseConfigurationReference = 4B99F815D7388C3A16A3AABFE95AFF21 /* FeverPreference.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -658,26 +955,57 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FeverPreference_Example/Pods-FeverPreference_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FeverPreference/FeverPreference-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FeverPreference/FeverPreference-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FeverPreference_Example/Pods-FeverPreference_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/FeverPreference/FeverPreference.modulemap";
+				PRODUCT_MODULE_NAME = FeverPreference;
+				PRODUCT_NAME = FeverPreference;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB1B36BDCF3BCC3B6200D16DEF0BE1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B99F815D7388C3A16A3AABFE95AFF21 /* FeverPreference.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FeverPreference/FeverPreference-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FeverPreference/FeverPreference-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FeverPreference/FeverPreference.modulemap";
+				PRODUCT_MODULE_NAME = FeverPreference;
+				PRODUCT_NAME = FeverPreference;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E3BF6DCF80F9B47CB2E143BB2550E71F /* Release */ = {
+		ED067B18CDC6081AD323C4D37E48E416 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7766987B6347C41E881E6F6B48DD277E /* Pods-FeverPreference_Example.release.xcconfig */;
 			buildSettings = {
@@ -747,11 +1075,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C7F8547803B9188C491B00C1A4992A0 /* Build configuration list for PBXNativeTarget "FeverPreference" */ = {
+		45C4E233466AC999806807A5B3AEB699 /* Build configuration list for PBXNativeTarget "FeverPreference" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				783F1028653BF062E2D1321E6A475861 /* Debug */,
-				2FCE61FC40D1DE3A367D53F7CD7BADD3 /* Release */,
+				BB1B36BDCF3BCC3B6200D16DEF0BE1A9 /* Debug */,
+				9FC6AC21D9B026D3350285025541D595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -765,11 +1093,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56A5EB20D496CEE8100372AEB4CF7F26 /* Build configuration list for PBXNativeTarget "Pods-FeverPreference_Example" */ = {
+		98C688597C2C70240471C4325F8CB9CA /* Build configuration list for PBXNativeTarget "MMKV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF69A99AF999D3B13CADF8D9D886D018 /* Debug */,
-				E3BF6DCF80F9B47CB2E143BB2550E71F /* Release */,
+				5419F912BC4EFA23017FC8A99B811913 /* Debug */,
+				290CED5EE93BA1B240A5C5294AEFD98B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -779,6 +1107,15 @@
 			buildConfigurations = (
 				FF3085DF7062FC368EAC79371D99EB28 /* Debug */,
 				3EF3A46B53E88F031FBAB44CCC218A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7F4F248D93EB259F3116BD654C69A9 /* Build configuration list for PBXNativeTarget "Pods-FeverPreference_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F5217D78DD3E6406D7B836494B8C7B /* Debug */,
+				ED067B18CDC6081AD323C4D37E48E416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

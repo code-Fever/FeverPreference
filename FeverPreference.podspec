@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FeverPreference'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = '简单封装mmkv'
 
 # This description is used to generate tags and improve search results.
@@ -37,5 +37,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MMKV'
 end

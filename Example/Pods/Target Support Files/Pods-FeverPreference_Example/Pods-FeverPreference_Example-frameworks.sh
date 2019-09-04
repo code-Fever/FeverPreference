@@ -162,9 +162,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FeverPreference/FeverPreference.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MMKV/MMKV.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FeverPreference/FeverPreference.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MMKV/MMKV.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

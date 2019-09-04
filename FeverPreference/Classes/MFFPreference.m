@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 #import "DDGProperties.h"
 #import "EXTRuntimeExtensions.h"
-
+#import <MMKV/MMKV.h>
 
 @implementation MFFPreference
 
@@ -37,7 +37,7 @@ static void *ddgPreferencesContext = &ddgPreferencesContext;
     unsigned int     propertyCount = 0;
     objc_property_t *propertyList  = class_copyPropertyList(self.class, &propertyCount);
     const char      *className     = class_getName(self.class);
-//    MMKV *mmky = [MMKV defaultMMKV];;
+    MMKV *mmky = [MMKV defaultMMKV];;
     for (unsigned int i = 0; i < propertyCount; i++) {
         
         const char *propName = property_getName(propertyList[i]);
@@ -50,7 +50,7 @@ static void *ddgPreferencesContext = &ddgPreferencesContext;
             
             id pref;
             if (*(attributes->type) == *(@encode(id))) {
-//                pref  = [mmky getObjectOfClass:propertyClass forKey:prefKey];
+                pref  = [mmky getObjectOfClass:propertyClass forKey:prefKey];
             } else  {
                 pref = [[NSUserDefaults standardUserDefaults] objectForKey:prefKey];
             }
@@ -93,8 +93,8 @@ static void *ddgPreferencesContext = &ddgPreferencesContext;
             objc_property_t property = class_getProperty([self class], (char *)[keyPath UTF8String]);
             mtl_propertyAttributes *attributes = mtl_copyPropertyAttributes(property);
             if (*(attributes->type) == *(@encode(id))) {
-//                MMKV *mmky = [MMKV defaultMMKV];
-//                [mmky setObject:newValue forKey:prefKey];
+                MMKV *mmky = [MMKV defaultMMKV];
+                [mmky setObject:newValue forKey:prefKey];
             } else {
                 [[NSUserDefaults standardUserDefaults] setObject:newValue forKey:prefKey];
                 [[NSUserDefaults standardUserDefaults] synchronize];

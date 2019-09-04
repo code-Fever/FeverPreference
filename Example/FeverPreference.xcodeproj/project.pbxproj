@@ -347,10 +347,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FeverPreference_Example/Pods-FeverPreference_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FeverPreference/FeverPreference.framework",
+				"${BUILT_PRODUCTS_DIR}/MMKV/MMKV.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeverPreference.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMKV.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

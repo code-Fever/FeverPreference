@@ -1,15 +1,22 @@
 PODS:
-  - FeverPreference (0.1.0)
+  - FeverPreference (0.2.0):
+    - MMKV
+  - MMKV (1.0.23)
 
 DEPENDENCIES:
   - FeverPreference (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MMKV
 
 EXTERNAL SOURCES:
   FeverPreference:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FeverPreference: d66fd59cb5746b0bf8ff938b37c2a68aa6f47c62
+  FeverPreference: 050d6a07a0afbb1ce3a24119a7d5b67d6f2de4b2
+  MMKV: 031ae51aedc0af1b250922f7ed8a6b6ee2f94c4c
 
 PODFILE CHECKSUM: 223372dbbf234450e739c6be0e4539e02c229ba6
 

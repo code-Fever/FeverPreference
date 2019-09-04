@@ -1,0 +1,6 @@
+framework module FeverPreference {
+  umbrella header "FeverPreference-umbrella.h"
+
+  export *
+  module * { export * }
+}

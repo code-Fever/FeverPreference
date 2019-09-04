@@ -1,0 +1,16 @@
+PODS:
+  - FeverPreference (0.1.0)
+
+DEPENDENCIES:
+  - FeverPreference (from `../`)
+
+EXTERNAL SOURCES:
+  FeverPreference:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FeverPreference: d66fd59cb5746b0bf8ff938b37c2a68aa6f47c62
+
+PODFILE CHECKSUM: 223372dbbf234450e739c6be0e4539e02c229ba6
+
+COCOAPODS: 1.7.5

@@ -7,6 +7,7 @@
 //
 
 #import "FPViewController.h"
+#import "MFFPreference.h"
 
 @interface FPViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

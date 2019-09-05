@@ -1,4 +1,7 @@
 # FeverPreference
+用法方便的持久化库。
+
+基于监听property set方法实现MMKV、NSUserDefaults的封装
 
 [![CI Status](https://img.shields.io/travis/Fever/FeverPreference.svg?style=flat)](https://travis-ci.org/Fever/FeverPreference)
 [![Version](https://img.shields.io/cocoapods/v/FeverPreference.svg?style=flat)](https://cocoapods.org/pods/FeverPreference)
@@ -19,6 +22,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'FeverPreference'
 ```
+继承自FeverPreference，添加属性即可享受丝滑持久化服务
 
 ## Author
 

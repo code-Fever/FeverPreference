@@ -1,5 +1,5 @@
 PODS:
-  - FeverPreference (0.2.0):
+  - FeverPreference (0.5.0):
     - MMKV
   - MMKV (1.0.23)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FeverPreference: 050d6a07a0afbb1ce3a24119a7d5b67d6f2de4b2
+  FeverPreference: ba399d41db6ac354b36a42a00c4817af68a0603b
   MMKV: 031ae51aedc0af1b250922f7ed8a6b6ee2f94c4c
 
 PODFILE CHECKSUM: 223372dbbf234450e739c6be0e4539e02c229ba6

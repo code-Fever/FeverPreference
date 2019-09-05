@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "DDGProperties.h"
-#import "EXTRuntimeExtensions.h"
+#import "FeverProperties.h"
+#import "FeverRuntimeExtensions.h"
 #import "MFFPreference.h"
 
 FOUNDATION_EXPORT double FeverPreferenceVersionNumber;

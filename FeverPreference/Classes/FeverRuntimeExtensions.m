@@ -7,7 +7,7 @@
 //  Released under the MIT license.
 //
 
-#import "EXTRuntimeExtensions.h"
+#import "FeverRuntimeExtensions.h"
 
 #import <Foundation/Foundation.h>
 

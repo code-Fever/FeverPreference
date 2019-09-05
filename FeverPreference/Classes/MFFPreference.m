@@ -8,8 +8,8 @@
 
 #import "MFFPreference.h"
 #import <objc/runtime.h>
-#import "DDGProperties.h"
-#import "EXTRuntimeExtensions.h"
+#import "FeverProperties.h"
+#import "FeverRuntimeExtensions.h"
 #import <MMKV/MMKV.h>
 
 @implementation MFFPreference
@@ -31,7 +31,7 @@
 }
 
 #pragma mark - Property Reading/Writing Methods
-static void *ddgPreferencesContext = &ddgPreferencesContext;
+static void *feverPreferencesContext = &feverPreferencesContext;
 //读取并KVO
 - (void) readAndObserveProperties {
     unsigned int     propertyCount = 0;
@@ -70,7 +70,7 @@ static void *ddgPreferencesContext = &ddgPreferencesContext;
             [self addObserver: self
                    forKeyPath: name
                       options: NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld
-                      context: ddgPreferencesContext];
+                      context: feverPreferencesContext];
         }
         free(attributes);
     }
@@ -83,7 +83,7 @@ static void *ddgPreferencesContext = &ddgPreferencesContext;
                        ofObject: (id) object
                          change: (NSDictionary *) change
                         context: (void *) context {
-    if (context == ddgPreferencesContext) {
+    if (context == feverPreferencesContext) {
         id<NSObject> newValue = [change valueForKey: NSKeyValueChangeNewKey];
         id<NSObject> oldValue = [change valueForKey: NSKeyValueChangeOldKey];
         const char      *className     = class_getName(self.class);
@@ -114,7 +114,7 @@ static void *ddgPreferencesContext = &ddgPreferencesContext;
                                                           length: strlen(propName)
                                                         encoding: NSUTF8StringEncoding
                                                     freeWhenDone: NO];
-            [self removeObserver: self forKeyPath: name context: ddgPreferencesContext];
+            [self removeObserver: self forKeyPath: name context: feverPreferencesContext];
         }
     }
     (void)(free(propertyList)), propertyList = NULL;

@@ -22,7 +22,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'FeverPreference'
 ```
-继承自FeverPreference，添加属性即可享受丝滑持久化服务
+继承自MFFPreference，添加属性即可享受丝滑持久化服务
 
 ## Author
 

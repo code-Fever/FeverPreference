@@ -13,6 +13,14 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+##FeverPreference的原理
+1.在MFFPreference init时读取所有属性对应在MMKV及NSUserDefaults里的值，并通过kvc设置给相应属性
+2/在MFFPreference init时给每个属性添加observer
+3.当属性值被set时 存储属性值给到MMKV或NSUserDefaults
+4.MMKV主要存取NSString、NSDictionary、NSArray等有class 方法的数据 NSUserDefaults会存储BOOL、NSInteger等小型数据
+5.由于MMKV用法的取值时需要传入对应的class （此处的获取属性class的方法来自Mantle）
+
+7.现在的问题是用法的迁移，之前的定好的很多key，可能不适合作为property，同时之前数据转MMKV存储也是有一部分小坑的。所以建议大家可以在加新key时使用。
 
 ## Installation
 

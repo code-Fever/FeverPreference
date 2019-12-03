@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "91A6826828CB9FCD0169A7547E8A79EA"
+               BlueprintIdentifier = "DED737E5919E0ED43A97601EA91D1023"
                BuildableName = "MMKV.framework"
                BlueprintName = "MMKV"
                ReferencedContainer = "container:Pods.xcodeproj">

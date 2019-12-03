@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F9BEA2ED706EC7F39589D3D9679F1F1"
+               BlueprintIdentifier = "81AD6F0383F499686269404A18A139E4"
                BuildableName = "FeverPreference.framework"
                BlueprintName = "FeverPreference"
                ReferencedContainer = "container:Pods.xcodeproj">

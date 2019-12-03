@@ -30,7 +30,7 @@
     [[NSNotificationCenter defaultCenter] removeObserver: self];
 }
 
-#pragma mark - Property Reading/Writing Methods
+#pragma mark - Property Reading/Writing Methodsz
 static void *feverPreferencesContext = &feverPreferencesContext;
 //读取并KVO
 - (void) readAndObserveProperties {
@@ -42,7 +42,7 @@ static void *feverPreferencesContext = &feverPreferencesContext;
         
         const char *propName = property_getName(propertyList[i]);
         objc_property_t property = propertyList[i];
-        mtl_propertyAttributes *attributes = mtl_copyPropertyAttributes(property);
+        mtt_propertyAttributes *attributes = mtt_copyPropertyAttributes(property);
         Class propertyClass = attributes->objectClass;
 
         if (supportedPropName(propName)) {
@@ -91,7 +91,7 @@ static void *feverPreferencesContext = &feverPreferencesContext;
         
         if (newValue && ![newValue isEqual: oldValue]) {
             objc_property_t property = class_getProperty([self class], (char *)[keyPath UTF8String]);
-            mtl_propertyAttributes *attributes = mtl_copyPropertyAttributes(property);
+            mtt_propertyAttributes *attributes = mtt_copyPropertyAttributes(property);
             if (*(attributes->type) == *(@encode(id))) {
                 MMKV *mmky = [MMKV defaultMMKV];
                 [mmky setObject:newValue forKey:prefKey];

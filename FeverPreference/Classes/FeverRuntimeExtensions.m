@@ -11,7 +11,7 @@
 
 #import <Foundation/Foundation.h>
 
-mtl_propertyAttributes *mtl_copyPropertyAttributes (objc_property_t property) {
+mtt_propertyAttributes *mtt_copyPropertyAttributes (objc_property_t property) {
     const char * const attrString = property_getAttributes(property);
     if (!attrString) {
         fprintf(stderr, "ERROR: Could not get attribute string from property %s\n", property_getName(property));
@@ -37,9 +37,9 @@ mtl_propertyAttributes *mtl_copyPropertyAttributes (objc_property_t property) {
     }
 
     // allocate enough space for the structure and the type string (plus a NUL)
-    mtl_propertyAttributes *attributes = calloc(1, sizeof(mtl_propertyAttributes) + typeLength + 1);
+    mtt_propertyAttributes *attributes = calloc(1, sizeof(mtt_propertyAttributes) + typeLength + 1);
     if (!attributes) {
-        fprintf(stderr, "ERROR: Could not allocate mtl_propertyAttributes structure for attribute string \"%s\" for property %s\n", attrString, property_getName(property));
+        fprintf(stderr, "ERROR: Could not allocate mtt_propertyAttributes structure for attribute string \"%s\" for property %s\n", attrString, property_getName(property));
         return NULL;
     }
 
@@ -88,11 +88,11 @@ mtl_propertyAttributes *mtl_copyPropertyAttributes (objc_property_t property) {
             break;
 
         case 'C':
-            attributes->memoryManagementPolicy = mtl_propertyMemoryManagementPolicyCopy;
+            attributes->memoryManagementPolicy = mtt_propertyMemoryManagementPolicyCopy;
             break;
 
         case '&':
-            attributes->memoryManagementPolicy = mtl_propertyMemoryManagementPolicyRetain;
+            attributes->memoryManagementPolicy = mtt_propertyMemoryManagementPolicyRetain;
             break;
 
         case 'N':
